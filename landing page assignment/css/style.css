@@ -1,0 +1,216 @@
+
+body {
+    margin: 0;   
+}
+
+#headerbackground {
+   background-color: rgba(0, 0, 0, 0.960);
+}
+
+#navbartop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.listitem1 {
+    color: white;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    list-style: none;
+    margin-left: -150px;
+}
+
+#haven-call {
+    display: flex;
+    flex-basis: content;
+    
+}
+
+#cakehaven {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 30pt;
+    margin-right: -600px;
+}
+
+#callus {
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    margin-right: -100px;
+    margin-left: 900px;
+    padding-block: -100px;
+    height: 5vh;
+    font-size: 18px;
+    border-color: yellow;
+    background-color: black;
+    color: yellow;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#callus_a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.listitem2 {
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    gap: 50px;
+    text-decoration: none;
+    padding-top: 40px;
+    color: white;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+#herotextmain {
+    background-image: url("https://preview.colorlib.com/theme/cakeshop/assets/img/hero/h1_hero1.jpg");
+    height: 100vh;
+}
+
+#herotext {
+    margin-top: 100px;
+    margin-left: 160px;
+    padding-top: 160px;
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+}
+
+
+#ordernow {
+    margin-left: 160px;
+    background-color: yellow;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+#ordernow_a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#introsection {
+    background-color: rgba(0, 0, 0, 0.990);
+    margin-top: -20px;
+}
+
+.welcome {
+    margin-left: 200px;
+    color: white;
+    padding-top: 1rem;
+}
+
+#intro {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.960);
+}
+
+#introtext {
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 60px;
+    font-size: larger;
+    color: white;
+}
+
+#introimg {
+    margin-right: 250px;
+}
+
+#section2 {
+    background-color: rgba(0, 0, 0, 0.990);
+}
+
+#best-seller {
+    color: orange;
+    align-content: center;
+    margin-left: 37rem;
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+
+.grid-container {
+    margin-left: 50px;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column gap: 10px;
+    grid-row gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px
+    /* width: 40%; */
+}
+
+.grid-item p {
+    color: white;
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+.caption {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+/* #section2a {
+    margin-left: 200px;
+}
+#section2b {
+    margin-left: 200px;
+}
+#section2aii {
+    margin-left: 50px;
+}
+
+#section2aiii {
+    margin-left: 50px;
+}
+
+#section2bii {
+    margin-left: 50px;
+} */
+/* 
+#section2biii {
+    margin-left: 50px;
+} */
+
+.looking-section1 {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#looking-img1 {
+    width: 400px;
+    height: 500px;
+}
+
+.looking-section2 {
+    display: flex;
+}
+
